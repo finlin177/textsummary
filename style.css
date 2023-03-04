@@ -1,0 +1,137 @@
+*{
+    margin:0 ;
+    padding:0 ;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+    background: #050507;
+    min-height: 100vh;
+    width: 100%;
+    color: #fff;
+    position: relative;
+}
+nav{
+    display: flex;
+    align-items: center;
+    padding: 0px   8% ;
+    justify-content: space-between;
+}
+nav .logo{
+    margin-right: 300px;
+    width: 160px;
+    cursor: pointer;
+}
+nav  {
+    flex-wrap: 1;
+    text-align:right;
+    margin-left: 0px;
+}
+nav  ul li{
+    display: inline-block;
+    list-style: none; 
+    margin: 0  20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+} 
+nav  ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #36d8f4;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+nav  ul li:hover::after{
+    width: 100%;
+}
+button{
+    background: #efefef;
+    height: 30px;
+    width: 60px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+button  span{
+    display: block;
+    background: #727070;
+    height: 26px;
+    width: 26px;
+    border-radius: 50%;
+    margin-left: 2px;
+}
+/*.button1{
+    background: #00986f;
+    border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 20px;
+}*/
+.lc{
+    position: absolute;
+    top: -30px;
+    left: 22%;
+    width: 200px;
+}
+.l1{
+    width: 100%;
+}
+.l2{
+    position: absolute;
+    top: 97%;
+    left: 45%;
+    transform: translateX(-50%);
+    width: 800px;
+    opacity: 0;
+}
+.textbox{
+    max-width: 600px;
+    margin-top: 7%;
+    margin-left: 50%;
+    color: #fff;
+    }
+.textbox h1{
+    font-size: 80px;
+    color: #fff;
+}
+.textbox a{
+    text-decoration: none;
+    background: #00986f ;
+    padding: 14px  40px;
+    display: inline-block;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+.control{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 150px;
+}
+.control  .line{
+    width: 250px;
+    height: 4px;
+    background: #fff;
+    margin: 0   20px;
+    border-radius: 2px;
+}
+.control  .line span{
+    width: 50%;
+    height: 8px;
+    margin-top: -2px;
+    border-radius: 4px;
+    background: #00986f;
+    display: block;
+}
